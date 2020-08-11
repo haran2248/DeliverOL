@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
     FirebaseAuth firebaseAuth;
     FirebaseUser user;
     TextInputEditText ph,otp;
-    Button genOtp;
+    Button genOtp,reg;
     private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
     ProgressBar progressBar;
     @Override
@@ -38,9 +38,16 @@ public class LoginActivity extends AppCompatActivity {
         ph=findViewById(R.id.phNo);
         otp=findViewById(R.id.Otp);
         genOtp=findViewById(R.id.otp_btn);
-
+        reg=findViewById(R.id.registerB);
         firebaseAuth=FirebaseAuth.getInstance();
         user=firebaseAuth.getCurrentUser();
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(LoginActivity.this,RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
         genOtp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
