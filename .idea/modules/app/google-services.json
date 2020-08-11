@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1003665310214",
+    "firebase_url": "https://deliverol-2b83b.firebaseio.com",
+    "project_id": "deliverol-2b83b",
+    "storage_bucket": "deliverol-2b83b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003665310214:android:ea99aa2d474cb55cf33987",
+        "android_client_info": {
+          "package_name": "com.example.deliverol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003665310214-rkv52id52h8duf1np2kuovdnkl1ii09p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deliverol",
+            "certificate_hash": "f5eff2a585ace6114196a34aec8e1d4492e22f87"
+          }
+        },
+        {
+          "client_id": "1003665310214-hd1ir1i2jkpbakm2nnn8c26cfsaqmmmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmlzcqm2GtwCjQhoP5PRFrP5cyHZT_l-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003665310214-hd1ir1i2jkpbakm2nnn8c26cfsaqmmmd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

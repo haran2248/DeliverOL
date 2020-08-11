@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E5ED"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Deliver"
+            android:layout_marginLeft="130dp"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#EDF60707"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OL"
+            android:layout_marginLeft="0dp"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FF9800"/>
+    </LinearLayout>
+    <!--    <TextView-->
+    <!--        android:id="@+id/deliver"-->
+    <!--        android:layout_width="74dp"-->
+    <!--        android:layout_height="21dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_marginLeft="119dp"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="53dp"-->
+    <!--        android:text="@string/deliver"-->
+    <!--        android:textAppearance="@style/deliver"-->
+    <!--        android:gravity="top"-->
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/ol"-->
+    <!--        android:layout_width="25dp"-->
+    <!--        android:layout_height="42dp"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_marginLeft="193dp"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="-20dp"-->
+    <!--        android:text="@string/ol"-->
+    <!--        android:textAppearance="@style/ol"-->
+    <!--        android:gravity="top"-->
+    <!--        />-->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="275dp"
+        app:endIconMode="password_toggle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:textColor="#1E1E1E"
+        android:id="@+id/phNo"
+        android:inputType="number"
+        android:hint="Phone No"
+        android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+<!--    <androidx.core.widget.ContentLoadingProgressBar-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:id="@+id/progress"-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_marginLeft="150dp"/>-->
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/otp_btn"
+        android:text="Get OTP"
+        app:cornerRadius="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#F3F2F2"
+        />
+
+
+
+
+
+
+</LinearLayout>
